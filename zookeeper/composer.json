@@ -1,0 +1,7 @@
+{
+	"name": "inv/zookeeper",
+	"description": "Zookeeper Client",
+	"autoload": {
+		"psr-0": {"Zookeeper": "lib/"}
+	}
+}
