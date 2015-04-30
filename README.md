@@ -4,6 +4,9 @@
 zk_monitor.sh
 run zkCheck.php, get the result code, restart zkWatch.php when neccssary
 when zkWatch not run, or sharememory and zookeeper not same
+#Zookeeper watcher monitor
+*/1 * * * * /bin/sh zk_monitor.sh > /dev/null 2>&1
+
 
 #zookeeper
 1. php share memory: shmop
