@@ -1,7 +1,7 @@
  zookeeper of composer
 
 #shell monitor
-zk_monitor.sh
+zk_monitor.sh(this file by jerry, other by ben)
 run zkCheck.php, get the result code, restart zkWatch.php when neccssary
 when zkWatch not run, or sharememory and zookeeper not same
 #Zookeeper watcher monitor
